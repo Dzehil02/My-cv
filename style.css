@@ -1,0 +1,131 @@
+html,
+body {
+  background: #fafafa;
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 500;
+  color: #252b42;
+  font-family: Montserrat;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  max-width: 1046px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 0 15px;
+}
+
+.photo {
+  width: 200px;
+  border-radius: 10%;
+}
+
+.left_side {
+  flex: 1 1 30%;
+}
+
+.right_side {
+  flex: 1 1 100%;
+  margin-left: 40px;
+  /* background: #f7e6a9; */
+}
+
+.block_me-title {
+  color: #536ccc;
+}
+
+.block_me-subtitle {
+  color: #3d4242;
+}
+
+.block_titles {
+  color: #536ccc;
+  font-size: 22px;
+}
+
+.contacts-column {
+  column-count: 2;
+  list-style: none;
+  padding: 0;
+}
+
+.contacts-column li {
+  padding: 5px 15px;
+  color: #506a6b;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.first {
+  list-style: none;
+  padding: 0;
+}
+.first li {
+  padding: 5px 15px;
+  background: linear-gradient(to left, #6c6b6b 0%, white, #757170);
+  border-bottom: 1px solid grey;
+  color: #506a6b;
+  font-size: 18px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  text-align: center;
+}
+.first li:last-child {
+  border-bottom: none;
+}
+
+.content-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #5e5e5e;
+  line-height: 142%;
+}
+
+.push {
+  list-style: none;
+}
+.push li {
+  font-size: 16px;
+  position: relative;
+  padding: 10px 0 10px 20px;
+  color: #5e5e5e;
+  font-weight: 600;
+}
+.push li:before {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4f5151;
+  content: "";
+  left: 0;
+  transition: 0.3s ease-in-out;
+  top: 17px;
+}
+.push li:after {
+  position: absolute;
+  border-left: 1px dotted #4f5151;
+  width: 1px;
+  bottom: -12px;
+  content: "";
+  left: 3px;
+  top: 48px;
+}
+.push li:hover:before {
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.push li:last-child:after {
+  content: none;
+}
+
+.project__link {
+  color: #536ccc;
+  font-weight: 600;
+}
+.project__link:hover {
+  text-decoration: underline;
+}
