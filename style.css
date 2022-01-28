@@ -54,7 +54,7 @@ body {
 }
 
 .contacts-column li {
-  padding: 5px 15px;
+  padding: 5px 0px;
   color: #506a6b;
   font-size: 18px;
   margin-bottom: 5px;
@@ -82,7 +82,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: #5e5e5e;
-  line-height: 142%;
+  line-height: 160%;
 }
 
 .push {
